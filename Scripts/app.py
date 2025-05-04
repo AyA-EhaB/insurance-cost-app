@@ -2,11 +2,15 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
+import os 
 
-# Load models
-lr = pickle.load(open('../Artifacts/lr.pkl', 'rb'))
-ohe = pickle.load(open('../Artifacts/ohe.pkl', 'rb'))
 
+base_path = os.path.dirname(os.path.dirname(__file__))  # Go up from Scripts/
+lr_path = os.path.join(base_path, 'Artifacts', 'lr.pkl')
+ohe_path = os.path.join(base_path, 'Artifacts', 'ohe.pkl')
+
+lr = pickle.load(open(lr_path, 'rb'))
+ohe = pickle.load(open(ohe_path, 'rb'))
 # Page configuration
 st.set_page_config(page_title="Health Insurance Cost Predictor", page_icon="💸", layout="centered")
 
