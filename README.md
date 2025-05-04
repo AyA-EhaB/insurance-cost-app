@@ -1,8 +1,3 @@
-Here’s a simple and clear `README.md` you can use for your deployed **Insurance Cost Prediction App**:
-
----
-
-````markdown
 # 🏥 Insurance Cost Prediction App
 
 This is a web application built using **Streamlit** that predicts insurance charges based on user input such as age, gender, BMI, number of children, smoking status, and region.
@@ -48,11 +43,3 @@ This is a web application built using **Streamlit** that predicts insurance char
 
 ## 📧 Contact
 
-For any questions or feedback, feel free to reach out!
-
----
-
-```
-
-Would you like me to help you generate a `requirements.txt` as well?
-```
