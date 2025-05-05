@@ -24,22 +24,20 @@ This is a web application built using **Streamlit** that predicts insurance char
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/insurance-cost-app.git
    cd insurance-cost-app
 ````
 
 2. Install dependencies:
 
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 
 3. Run the Streamlit app:
 
    ```bash
    streamlit run app.py
    ```
-
-## 📧 Contact
 
