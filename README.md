@@ -36,8 +36,8 @@ This is a web application built using **Streamlit** that predicts insurance char
 ```
 
 3. Run the Streamlit app:
-
-   ```bash
+   
+```bash
    streamlit run app.py
-   ```
+```
 
